@@ -1,3 +1,15 @@
+variable "region" {
+  default = "us-west-2"
+}
+
+region "az_a" {
+  default = "us-west-2a"
+}
+
+region "az_b" {
+  default = "us-west-2b"
+}
+
 
 variable "vpc_cidr_block" {
   default = "172.31.0.0/16"

@@ -14,8 +14,8 @@ module "ecs" {
   ecs_cluster_name = "${var.ecs_cluster_name}"
 
   vpc_id = "${module.vpc.app_vpc_id}"
-  az_a = "us-west-2a"
-  az_b = "us-west-2b"
+  az_a = "${var.az_a}"
+  az_b = "${var.az_b}"
   ecs_a_cidr = "${var.ecs_a_cidr}"
   ecs_b_cidr = "${var.ecs_b_cidr}"
 }
