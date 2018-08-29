@@ -2,11 +2,11 @@ variable "region" {
   default = "us-west-2"
 }
 
-region "az_a" {
+variable "az_a" {
   default = "us-west-2a"
 }
 
-region "az_b" {
+variable "az_b" {
   default = "us-west-2b"
 }
 
